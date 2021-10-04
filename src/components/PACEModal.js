@@ -5,7 +5,7 @@ function PACEModal({show, onHide}) {
     return (
         <Modal show={show} fullscreen={true} onHide={onHide}>
             <Modal.Header closeButton>
-            <Modal.Title>Modal</Modal.Title>
+            <Modal.Title>PACE</Modal.Title>
             </Modal.Header>
             <Modal.Body>
         <div class="container-fluid">
