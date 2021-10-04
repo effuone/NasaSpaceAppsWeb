@@ -7,7 +7,7 @@ function Hero() {
         <div className="px-4 pt-5 my-5 text-center border-bottom" style={{color: '#ffffff'}}>
             <div className="overflow-hidden" style={{maxHeight: '300vh'}}>
                 <div className="container px-5">
-                    <img src="/nasa-logo.png" className="img-fluid rounded-3 shadow-lg mb-4" alt="Example image" width={180} height={90} loading="lazy"/>
+                    <img src="/logo.png" className="img-fluid rounded-3 shadow-lg mb-4" alt="Example image" width={200} height={90} loading="lazy"/>
                 </div>
             </div>
             <h1 className="display-5 fw-bold">Re Vera Inc.</h1>
