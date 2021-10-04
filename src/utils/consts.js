@@ -1,6 +1,7 @@
 export const HOME_ROUTE = '/'
 export const MISSION_ROUTE = '/missions' 
 export const DATA_ROUTE = '/data'
+export const STRAT_ROUTE = '/strategies'
 
 export const missions = [
     {
