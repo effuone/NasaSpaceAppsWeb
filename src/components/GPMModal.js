@@ -6,7 +6,7 @@ function GPMModal({show, onHide}) {
     return (
         <Modal show={show} fullscreen={true} onHide={onHide}>
             <Modal.Header closeButton>
-            <Modal.Title>Modal</Modal.Title>
+            <Modal.Title>GPM Data</Modal.Title>
             </Modal.Header>
             <Modal.Body>
                 {gpm.map(({title, text}) => 
