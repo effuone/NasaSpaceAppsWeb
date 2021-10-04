@@ -33,7 +33,7 @@ function NavBar() {
                 <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <a className="navbar-brand" href="#">Logo here </a>
+                <a className="navbar-brand" href="#"><img src="/logo.png" alt="" width={100}/> </a>
                 <div className="collapse navbar-collapse" id="navbar1">
                     <ul className="navbar-nav">
                         {routes.map(({title, path}) => 
