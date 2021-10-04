@@ -1,10 +1,11 @@
 import HomePage from "./pages/HomePage";
 import MissionsPage from "./pages/MissionsPage";
 import DataPage from "./pages/DataPage";
+import StratPage from "./pages/StratPage";
 import { 
     HOME_ROUTE, 
     MISSION_ROUTE, 
-    DATA_ROUTE } from "./utils/consts";
+    DATA_ROUTE, STRAT_ROUTE } from "./utils/consts";
 
 export const routes = [
     {
@@ -22,4 +23,9 @@ export const routes = [
         path: DATA_ROUTE,
         Component: DataPage
     },
+    {
+        title: 'Strategies',
+        path: STRAT_ROUTE,
+        Component: StratPage
+    }
 ]
