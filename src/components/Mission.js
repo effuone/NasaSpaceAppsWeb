@@ -7,11 +7,11 @@ function Mission({title, author, description, img}) {
     const [modal1, setModal1] = useState(false);
 
     const [state, setState] = useState(false)
-    const changeState = () => {
-        if(title === "GMP") {
+    useEffect(() => {
+        if(title === "GPM") {
             setState(true)
         }
-    }
+    })
 
     changeState()
 
